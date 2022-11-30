@@ -4,29 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aeb77d1e-e1e6-478a-87fb-7b4044019ef5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AutoWeb/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AutoWeb/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AutoWeb/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AutoWeb/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AutoWeb/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test1LogIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test2LogOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test3ChangeCity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test4Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestFavarite.java" afterDir="false" />
+    <list default="true" id="aeb77d1e-e1e6-478a-87fb-7b4044019ef5" name="Changes" comment="Homework3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework4/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework4/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test1LogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Homework3/Test1LogIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test2LogOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Homework3/Test2LogOut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test3ChangeCity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Homework3/Test3ChangeCity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test4Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Homework3/Test4Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestFavarite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Homework3/TestFavarite.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -54,52 +49,65 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/java/JavaStart&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestFavarite">
-    <configuration name="Test1LogIn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test1LogIn" />
+  <component name="RunManager" selected="JUnit.TestTriangle">
+    <configuration name="Homework3.Test2LogOut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework3.Test2LogOut" />
       <module name="AutoWeb" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2LogOut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test2LogOut" />
+    <configuration name="Homework3.TestFavarite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework3.TestFavarite" />
       <module name="AutoWeb" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test3ChangeCity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test3ChangeCity" />
+    <configuration name="Triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework4.Triangle" />
       <module name="AutoWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test4Search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test4Search" />
+    <configuration name="TestTriangle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutoWeb" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestTriangle" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFavarite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestFavarite" />
+    <configuration name="TestTriangle.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutoWeb" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestTriangle" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestFavarite" />
-        <item itemvalue="Application.Test2LogOut" />
-        <item itemvalue="Application.Test1LogIn" />
-        <item itemvalue="Application.Test4Search" />
-        <item itemvalue="Application.Test3ChangeCity" />
+        <item itemvalue="JUnit.TestTriangle" />
+        <item itemvalue="JUnit.TestTriangle.test2" />
+        <item itemvalue="Application.Triangle" />
+        <item itemvalue="Application.Homework3.TestFavarite" />
+        <item itemvalue="Application.Homework3.Test2LogOut" />
       </list>
     </recent_temporary>
   </component>
@@ -112,6 +120,14 @@
       <option name="presentableId" value="Default" />
       <updated>1669585873384</updated>
     </task>
+    <task id="LOCAL-00001" summary="Homework3">
+      <created>1669660129047</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669660129047</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,5 +152,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Homework3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework3" />
   </component>
 </project>
