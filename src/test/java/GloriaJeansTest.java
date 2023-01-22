@@ -1,5 +1,6 @@
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
+import io.qameta.allure.*;
+import org.junit.jupiter.api.*;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
@@ -8,6 +9,8 @@ import org.openqa.selenium.WebElement;
 public class GloriaJeansTest extends AbstractTest {
 
     @Test
+    @DisplayName("Авторизация на сайте")
+    @Severity(SeverityLevel.CRITICAL)
     void logInTest() throws InterruptedException {
         MenuPage menuPage = new MenuPage(getDriver());
         menuPage.closeSelectRegion();
@@ -38,6 +41,8 @@ public class GloriaJeansTest extends AbstractTest {
 
 
     @Test
+    @DisplayName("Смена города")
+    @Severity(SeverityLevel.NORMAL)
     void changeCityTest() throws InterruptedException {
         MenuPage  menuPage = new MenuPage(getDriver());
         menuPage.changeRegion();
@@ -58,6 +63,7 @@ public class GloriaJeansTest extends AbstractTest {
     }
 
     @Test
+    @DisplayName("Поиск")
     void searchTest() {
         MenuPage menuPage =new MenuPage(getDriver());
         menuPage.closeSelectRegion();
@@ -72,6 +78,8 @@ public class GloriaJeansTest extends AbstractTest {
     }
 
     @Test
+    @DisplayName("Переход в карзину")
+    @Severity(SeverityLevel.BLOCKER)
     void goToCartTest() {
         MenuPage menuPage = new MenuPage(getDriver());
         try {
